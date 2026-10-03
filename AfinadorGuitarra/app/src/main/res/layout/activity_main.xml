@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="top"
+            android:text="@string/hola"
+            android:textColor="@color/textcolor2" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/imagen"
+            android:scaleType="center"
+            android:src="@drawable/pngegg" />
+
+        <Button
+            android:id="@+id/E1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E1" />
+        <Button
+            android:id="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A1" />
+        <Button
+            android:id="@+id/D1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D1" />
+        <Button
+            android:id="@+id/G1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="G1" />
+        <Button
+            android:id="@+id/B1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B1" />
+        <Button
+            android:id="@+id/E2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E2" />
+        <TextView
+            android:id="@+id/xtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textColor="@color/textcolor"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

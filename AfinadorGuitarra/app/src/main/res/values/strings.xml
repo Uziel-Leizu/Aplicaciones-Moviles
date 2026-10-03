@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AfinadorGuitarra</string>
+    <string name="hola">Seleccionar una cadena</string>
+    <color name="bg">#ffffff</color>
+    <color name="textcolor">#ff0000</color>
+    <color name="textcolor2">#000000</color>
+    <string name="e1">Cuerda E</string>
+    <string name="a1">Cuerda A</string>
+    <string name="d1">Cuerda D</string>
+    <string name="g1">Cuerda G</string>
+    <string name="b1">Cuerda B</string>
+    <string name="e2">Cuerda E</string>
+    <string name="salir">Salir</string>
+    <string name="imagen">Guitarra</string>
+</resources>
